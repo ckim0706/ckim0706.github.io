@@ -13,5 +13,5 @@ Git helps the user keep track of changes by creating branches and commits. Branc
 
 Why use GitHub to store your code?
 
-Github is a wonderful online resource to store one's code. Let's say you have to go somewhere and you cannot collaborate with your team. The solution would be using Github where you can utilize git to download work. Github creates URLs which allow Git to use as remote links. 
+Github is a wonderful online resource to store one's code. Let's say you have to go somewhere and you cannot collaborate with your team. The solution would be using Github where you can utilize git to download work.
 
