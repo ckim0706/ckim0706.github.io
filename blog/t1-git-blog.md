@@ -1,27 +1,17 @@
-<!-- This template is in markdown, not html, so
-  it will not render beautifully when you copy and
-  paste it into your github.io site, but it will at
-  least be published. Next week you'll be creating a
-  blog template using HTML and CSS and you'll be able
-  to copy and paste the blog posts from week 1 in there
-  to make them pretty next week.
 
-  For now, please replace the title, subtitle (if desired),
-  and date with the text you would like. Markdown is pretty
-  simple, so you can just feel free to type. =) -->
+# Version Control
+#### Benefits of using version control for Software Development
+#### 9/20/14
 
+What are the benefits of version control?
 
-# Title
-#### Subtitle
-#### Date
+To simply define the benefits of version control, we must first understand why it is necessary. Anyone who has worked with any document understands that if you accidentally delete a sentence and save, all hope is lost. Version control is a system program that records changes time so that recalling a specific version is possible. 
 
-Paragraph 1
+How does git help you keep track of changes?
 
-Paragraph 2
+Git helps the user keep track of changes by creating branches and commits. Branches are different paradigms of the project. Simply put, the project is dublicated and it can be edited as different versions. Each commit is a save point where messages can be placed for future reference. This works both in the local computer hard drive and web. Git allows pushing and pulling of projects enabling co-work with your peers through Github. 
 
-Paragraph 3
+Why use GitHub to store your code?
 
-Add as many paragraphs as you want!!!
-
-
+Github is a wonderful online resource to store one's code. Let's say you have to go somewhere and you cannot collaborate with your team. The solution would be using Github where you can utilize git to download work. 
 

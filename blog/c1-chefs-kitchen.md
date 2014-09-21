@@ -1,27 +1,13 @@
-<!-- This template is in markdown, not html, so
-  it will not render beautifully when you copy and
-  paste it into your github.io site, but it will at
-  least be published. Next week you'll be creating a
-  blog template using HTML and CSS and you'll be able
-  to copy and paste the blog posts from week 1 in there
-  to make them pretty next week.
 
-  For now, please replace the title, subtitle (if desired),
-  and date with the text you would like. Markdown is pretty
-  simple, so you can just feel free to type. =) -->
+# Chefs in the Building
+#### Emotional Reflection
+#### 9/20/14
 
+what's your take on the DBC experience? 
+What is your impression of DBC? 
+How do you see yourself engaging with this type of culture? 
+Have your expectations of DBC changed? If so, how? 
+Are you excited to participate in this kind of learning environment? 
+Does it make you nervous
 
-# Title
-#### Subtitle
-#### Date
-
-Paragraph 1
-
-Paragraph 2
-
-Paragraph 3
-
-Add as many paragraphs as you want!!!
-
-
-
+After watching the video by Shereef (http://vimeo.com/85001014), I have greater respect for DEV Bootcamp. Many difficult questions and their solutions were shown. Shereef emphasizes social empathy, passionate, humbleness, confidence, hunger and commitment as important characteristics of great learners and team member. Dev Bootcamp isn't a traditional academic institute, where simple question and answer situations are given. Just like working in the restaurant, one must pull your sleeves up and take action for your learning experience. No one can change one's destiny but oneself. An action speaks louder than a thousand words. Everyone should be in the creator mindset to change the environment they are in to have a great learning experience. No one is perfect and everyone came here to learn from scratch. I am excited to join a great organization where mistakes are acknowledged as a part of learning process.
