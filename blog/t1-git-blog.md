@@ -1,4 +1,3 @@
-
 # Version Control
 #### Benefits of using version control for Software Development
 #### 9/20/14
