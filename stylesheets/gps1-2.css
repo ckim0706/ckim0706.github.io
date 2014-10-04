@@ -1,0 +1,17 @@
+header {
+      text-align: center;
+      width: 100%;
+      border-bottom: 2px solid grey;
+      }
+    h2 {
+      font-size: 90%;
+    }
+    section article{
+      display: inline-block;
+      width: 300px;
+      height: 250px;
+      vertical-align: top;
+      border: 1px solid grey;
+      margin: 10px auto;
+      padding: 30px;
+    }
