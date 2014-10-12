@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charles Kim | Learner</title>
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../stylesheets/blog-stylesheets.css">
+  </head>
+  <body>
+    <header>
+      <a href="../blog.html" id="logo">
+        <h1>Charles Kim</h1>
+        <h2>Want-to-be-Developer, Learner and Gamer</h2>
+      </a>  
+    </header>    
+      <div class="blog">
+        <img src="../img/map.jpeg"/><!--insert image-->
+        <h3>Ruby Enumerable Method: Map</h3>
+        <h4>October 9, 2014</h4>
+        <p>
+Map is one of the most used Enumerable or a "module", where it can modify the given object. There are two ways to use map. Map returns a <em>NEW</em> array which is returned by the block. 
+
+Object.map { |item| block } → new_array
+Object.map → Enumerator
+
+Example:
+a = [1,2,3]
+a1 = a.map {|x| x*2}
+a1 = [2,4,6]
+
+Map! allows the same effect, where each of the blocks replace the original item. 
+
+Example:
+a = [1,2,3]
+a.map {|x| x*2}
+<em>a</em> = [2,4,6]
+
+I found the following links to be helpful in my learning.
+
+Links:
+<a href="http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods">Erick Trautman's Blog</a>
+<a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">Robert Qualls' Ruby Tips</a>
+
+        </p>
+        </div>
+      <footer>
+          <a href="https://twitter.com/ckim0706"><img src="../img/social-icon/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+          <a href="https://www.facebook.com/charleskim88"><img src="../img/social-icon/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+          <a href="http://www.linkedin.com/pub/charles-kim/28/82a/496/"><img src="../img/social-icon/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+          <a href="https://github.com/ckim0706"><img src="../img/social-icon/github.png" alt="Github Logo" class="social-icon"></a>
+          <a href="https://plus.google.com/+CharlesKim88/about"><img src="../img/social-icon/google_plus.png" alt="Google+ Logo" class="social-icon"></a>
+        <p>&copy; 2014 Charles Kim.</p>
+      </footer>
+  </body>
+</html>
