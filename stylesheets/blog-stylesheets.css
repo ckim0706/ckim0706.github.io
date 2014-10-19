@@ -48,6 +48,9 @@ h4 {
   font-size: 50%;
   margin-top: -10px;
 }
+h5 {
+  font-size: 50%;
+}
 .blog img {
   max-width: 250px;
   float: left;

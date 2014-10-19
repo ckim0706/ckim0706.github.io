@@ -21,7 +21,7 @@ Classes are objects that supports all the operations such as passing a parameter
 
 Classes look like this:
 
-class Name <em>hint:name of class must be capitalized</em>
+class Name <h5>hint:name of class must be capitalized</h5>
   
   def initialize (first_name, last_name)
     @first_name = first_name 
@@ -35,7 +35,7 @@ class Name <em>hint:name of class must be capitalized</em>
 end
 
 To create a new class and use the methods:
-me = Name.new("Charles","Kim") <em>hint: parenthesis must be placed without white_space</em>
+me = Name.new("Charles","Kim") <h5>hint: parenthesis must be placed without white_space</h5>
 me.greet
 
 ------
@@ -50,15 +50,18 @@ attr_reader          :first_name          def first_name
                                             @first_name
                                           end
 
-attr_writer           :last_name         def last_name=(last_name)
-                                           @last_name = last_name
-                                         end
+attr_writer          :last_name           def last_name=(last_name)
+                                            @last_name = last_name
+                                          end
 
-att_accessor  :first_name, :last_name    Both
+att_accessor  :first_name, :last_name     Both
 
 There are so much information regarding classes, thus again here's some good links:
+
 <a href="http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html">Ruby Learning</a>
+
 <a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">Pragmatic Programmer's Guide</a>
+
 <a href="http://techblog.thescore.com/2014/07/19/3-ways-to-create-classes-in-ruby/">The Score - 3 Ways to Create Classes</a>
         </p>
         </div>
