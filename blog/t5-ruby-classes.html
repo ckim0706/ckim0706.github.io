@@ -13,16 +13,54 @@
       </a>  
     </header>    
       <div class="blog">
-        <img src=""/><!--insert image-->
+        <img src="../img/classes.jpeg"/><!--insert image-->
         <h3>Object-Oriented Ruby: Classes</h3>
         <h4>October 17, 2014</h4>
         <p>
-http://phrogz.net/programmingruby/tut_classes.html
+Classes are objects that supports all the operations such as passing a parameter, returning functions and assigning a variable. 
 
-Explain when, why, and how to use classes
-Explain how data structures and classes can model a real-world object
+Classes look like this:
 
-classes are 
+class Name <h4>* hint* name of class must be capitalized</h4>
+  
+  def initialize (first_name, last_name)
+    @first_name = first_name 
+    @last_name = last_name
+  end
+
+  def greet
+    puts "Hi, I'm #{@first_name} #{@last_name}"
+  end
+
+end
+
+To create a new class and use the methods:
+me = Name.new("Charles","Kim") <h4>* hint* parenthesis must be placed without white_space</h4>
+me.greet
+
+------
+console
+
+"Hi, I'm Charles Kim"
+--------------------------------------
+
+Classes have special variable called attr_. There are three types of attr_.
+
+attr_reader          :first_name          def first_name
+                                            @first_name
+                                          end
+
+attr_writer           :last_name         def last_name=(last_name)
+                                           @last_name = last_name
+                                         end
+
+att_accessor  :first_name, :last_name    Both
+
+There are so much information regarding classes, thus again here's some good links:
+
+<a href="http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html">Ruby Learning</a>
+<a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">Pragmatic Programmer's Guide</a>
+<a href="http://techblog.thescore.com/2014/07/19/3-ways-to-create-classes-in-ruby/">The Score - 3 Ways to Create Classes</a>
         </p>
         </div>
       <footer>
