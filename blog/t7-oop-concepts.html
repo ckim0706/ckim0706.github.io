@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charles Kim | Learner</title>
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../stylesheets/blog-stylesheets.css">
+  </head>
+  <body>
+    <header>
+      <a href="../blog.html" id="logo">
+        <h1>Charles Kim</h1>
+        <h2>Want-to-be-Developer, Learner and Gamer</h2>
+      </a>  
+    </header>    
+      <div class="blog">
+        <img src="../img/.jpeg"/><!--insert image-->
+        <h3>Ruby: Variable Scope</h3>
+        <h4>October 21, 2014</h4>
+        <p>
+What kinds of variables does Ruby support? Where are they accessible? When would you use them and what makes them different?
+
+What is scope?
+Scope defines where the variable is accessible.  
+
+There are total of 4 different variable scopes and 1 called constants. Each of the scopes have a unique way of starting the variables.
+
+Global: $
+Class: @@
+Instance: @
+Local: [a-z] or _  
+Constants: [A-Z]
+
+To detect the scope of the variable, you can use the method called defined?
+
+x.defined?
+
+Just like variable scopes, private and public limits accessibility of variables. 
+
+Typing private above the methods inside a class will only allow access to its variables if it has been referenced to a method above.  
+
+LINK:
+<a href="http://www.techotopia.com/index.php/Ruby_Variable_Scope">Technotopia</a>
+
+        </p>
+        </div>
+      <footer>
+          <a href="https://twitter.com/ckim0706"><img src="../img/social-icon/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+          <a href="https://www.facebook.com/charleskim88"><img src="../img/social-icon/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+          <a href="http://www.linkedin.com/pub/charles-kim/28/82a/496/"><img src="../img/social-icon/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+          <a href="https://github.com/ckim0706"><img src="../img/social-icon/github.png" alt="Github Logo" class="social-icon"></a>
+          <a href="https://plus.google.com/+CharlesKim88/about"><img src="../img/social-icon/google_plus.png" alt="Google+ Logo" class="social-icon"></a>
+        <p>&copy; 2014 Charles Kim.</p>
+      </footer>
+  </body>
+</html>
