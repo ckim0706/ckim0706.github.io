@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../stylesheets/cheatsheet.css"> 
+    <meta charset="utf-8" />
+    <title>Ruby Hashes, Arrays, and Strings</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Ruby Hashes, Arrays, and Strings</h1>
+    </header>
+      <div id="middle">
+        <article>
+            <h2>Hashes</h2>
+              <pre>
+# Constructor
+
+  hash = Hash.new("nil")    # => {}
+
+  hash = Hash.new       # => {}
+  hash.default = "nil"
+
+# Operators
+
+  Hash Index    hash[key]
+          (default value if out of bounds)
+
+# Iterators
+
+  Each Key    .each_key
+  Each Value    .each_value
+
+  Select      .select
+  Map       .collect, .map
+  Delete      .delete()
+  
+  
+  
+Array and Hash in Ruby helps programmers to efficiently manage data. 
+Array and Hash both are able to store multiple types of data inluding boolean (t/f), numbers and text. 
+The main difference between Array [ ] and Hash { } are the symbols to create and its flexibility. Hash { } needs a key and a value. 
+
+Examples:
+array = [true, 1, 2.0, "Hello", "bye"]
+array.each { |x| puts "#{x}" }
+
+hash = {tiger: "land", whale: "sea", eagle: "air"}
+hash.each { |x, y| puts "#{x}: #{y}" }
+
+As you can see .each on examples, there are numerous Enumerable classes that can be connected to array and hash. 
+These enumerable classes such as .length, .size, .upcase , ETC. allow user to manipulate the output results. 
+
+I found this website to great resource to see different classes
+
+Link: <a href="http://devdocs.io/ruby-array/">Dev Docs</a>
+              </pre>
+          </article>
+          
+          <article>
+              <h2>Arrays</h2>
+              <pre>
+# Constructor
+
+    array = Array.new   # => []
+    array = Array.new(3)  # => [nil,nil,nil]
+    array = Array.new(3, x) # => [x,x,x]
+    
+    copy = Array.new(array) # => [x,x,x]
+
+# Operators
+
+    Concatenate   +
+    Append      <<
+    Repeat      *
+    
+    Subtract    -
+    Union     |
+    Intersection  &
+    
+    Array Index   array[0]
+    Subarray Index  array[3, length]
+    Subarry Index array[3..5]
+            (nil if out of bounds)
+              </pre>
+          </article>
+          
+          <article>
+              <h2>Strings</h2>
+              <pre>
+# Operators
+
+  Interpolate   "#{string}" 
+
+  Concatenate   +
+  Append      <<
+  Repeat      *
+
+  Character Index   string[0]
+  Substring Index   string[3, length]
+  Substring Index   string[3..5]
+            (nil if out of bounds)
+
+# Iterators
+
+  Each Character  .each_char
+  Each Line     .each_line
+
+  Delete      .delete()
+              </pre>
+          </article>
+        </div>
+
+        <footer>
+          <div id="contact">
+            Email:
+              <a href="mailto:ckim0706@gmail.com">Charles Kim</a> and 
+              <a href="mailto:dkchan90@gmail.com">Daniel Chan</a>
+          </div>
+            <p>&copy; 2014 Charles Kim & Daniel Chen</p>
+        </footer>
+
+  </body>
+  
+</html>

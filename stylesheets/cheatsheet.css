@@ -1,0 +1,21 @@
+/*Colors*/
+h1 {color: black}
+p {color:green}
+      
+/*Header*/
+header {text-align: center; width: 100%; border-bottom: 2px solid grey;}
+      
+/*Body*/
+#middle article {
+display: inline-block;
+width: 25%;
+vertical-align: top;
+border: 1px solid grey;
+margin: 10px auto;
+padding: 30px;
+overflow: scroll;
+}
+
+/*Footer*/
+#contact {padding-top:10px;}
+footer {text-align: center; width: 100%; border-top: 2px solid grey;}
