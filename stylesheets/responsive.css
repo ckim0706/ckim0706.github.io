@@ -1,0 +1,63 @@
+@media screen and (min-width: 480px) {
+
+  /*****************************************
+  PAGE: ABOUT
+  ******************************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 50px 0;
+  }
+
+
+
+}
+
+@media screen and (min-width: 660px) {
+
+
+  /*****************************************
+  HEADER
+  ******************************************/
+  nav {
+
+    background: none;
+    float: right;
+    font-size: 0.9em;
+    margin-right: 5%;
+    text-align: right;
+    width: 55%;
+  }
+
+  #logo {
+
+    float:left;
+    margin-left: 5%;
+    text-align: left;
+    width: 35%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px #599a68;
+    margin-bottom: 60px;
+
+  }
+  /*****************************************
+  PAGE: BLOG
+  ******************************************/
+
+  .blog-links h3 {
+    width: 26%
+  }
+
+  
+}
