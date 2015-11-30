@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Charles Kim | Learner</title>
     <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/main.css">
@@ -16,6 +17,13 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
   <body>
     <script type="text/javascript">
       mixpanel.track("Page Loaded", {"Page name": "Landing Page"});
+      $('#logo').click(function(){
+         mixpanel.track("logo clicked");
+        });
+
+        $('#about').click(function(){
+         mixpanel.track("about Clicked");
+        });
     </script>
     <header>
       <a href="index.html" id="logo">
@@ -24,9 +32,9 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
       </a>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected">Logo</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html" class="selected" id="logo">Logo</a></li>
+          <li><a href="about.html" id="about">About</a></li>
+          <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
