@@ -18,11 +18,14 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
     <script type="text/javascript">
       mixpanel.track("Page Loaded", {"Page name": "Landing Page"});
       $('#logo').click(function(){
-         mixpanel.track("Moved", {"Link Action": "logo clicked"});
+         mixpanel.track("Viewed Page", {"Link Action": "logo clicked"});
+         console.log(1)
         });
 
+
         $('#about').click(function(){
-         mixpanel.track("Moved", {"Link Action": "about clicked"});
+         mixpanel.track("Viewed paged", {"Link Action": "about clicked"});
+         console.log(1)
         });
     </script>
     <header>
