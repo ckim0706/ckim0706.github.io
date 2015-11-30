@@ -15,19 +15,6 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
   </head>
   <body>
-    <script type="text/javascript">
-      mixpanel.track("Page Loaded", {"Page name": "Landing Page"});
-      $('#logo').click(function(){
-         mixpanel.track("Viewed Page", {"Link Action": "logo clicked"});
-         console.log(1)
-        });
-
-
-        $('#about').click(function(){
-         mixpanel.track("Viewed paged", {"Link Action": "about clicked"});
-         console.log(1)
-        });
-    </script>
     <header>
       <a href="index.html" id="logo">
         <h1>Charles Kim</h1>
@@ -56,5 +43,18 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
         <p>&copy; 2015 Charles Kim.</p>
       </footer>
      </div>
+         <script type="text/javascript">
+      mixpanel.track("Page Loaded", {"Page name": "Landing Page"});
+      $('#logo').click(function(){
+         mixpanel.track("Viewed Page", {"Link Action": "logo clicked"});
+         console.log(1)
+        });
+
+
+        $('#about').click(function(){
+         mixpanel.track("Viewed paged", {"Link Action": "about clicked"});
+         console.log(1)
+        });
+    </script>
   </body>
 </html>
