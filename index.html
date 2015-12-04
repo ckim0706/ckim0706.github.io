@@ -22,7 +22,7 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
       </a>
       <nav>
         <ul>
-          <li><a href="index.html" class="selected" id="logo">Logo</a></li>
+          <li><a href="index.html" class="selected">Logo</a></li>
           <li><a href="about.html" id="about">About</a></li>
           <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -45,7 +45,7 @@ mixpanel.init("db315baf97d6f1af7d480ae660fc409a");</script><!-- end Mixpanel -->
      </div>
          <script type="text/javascript">
       mixpanel.track("Page Loaded", {"Page name": "Landing Page"});
-      $('#logo').click(function(){
+      $('#logos').click(function(){
          mixpanel.track("Viewed Page", {"Link Action": "logo clicked"});
          console.log(1)
         });
